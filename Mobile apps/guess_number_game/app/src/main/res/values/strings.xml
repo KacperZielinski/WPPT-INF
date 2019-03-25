@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Simple App</string>
-    <string name="guess_number_between">Guess number between [1, 100]</string>
-    <string name="guess_button_str">Guess</string>
-    <string name="desc_bold_all_textviews">Bold all textViews</string>
-    <string name="reset_button_str">Reset</string>
-    <string name="attempts">Attempts: 0</string>
-    <string name="type_number">Type number</string>
-</resources>
