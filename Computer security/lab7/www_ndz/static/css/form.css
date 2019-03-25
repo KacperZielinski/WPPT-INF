@@ -1,0 +1,95 @@
+input[type=text], input[type=password], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+body {
+	background-image: url(../img/bg-cyan.jpg);
+}
+
+.button {
+    background-color: #0000FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.link {
+	color: #525252;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.rightTopLink {
+	background-color: #525252;
+    border: none;
+    color: white;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+	position: absolute;
+	top:0;
+	right:0;
+	text-transform: uppercase;
+}
+
+.leftDownLink {
+	background-color: #525252;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+	display:inline-block;
+}
+
+.formDiv {
+	position:relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+	width:800px; 
+	margin:0 auto; 
+	margin-top: 2em; 
+	padding: 2em;
+}
+
+.error {
+	color: red;
+	display: inline;
+}
